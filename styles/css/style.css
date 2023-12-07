@@ -15,7 +15,7 @@ body {
   /* IE and Edge */
   scrollbar-width: none;
   /* Firefox */
-  background: #ff9043;
+  background: #151030;
   -webkit-font-smoothing: antialiased;
   color: #fff;
   font-weight: 400;
@@ -37,10 +37,10 @@ body .background {
   z-index: -1;
 }
 body .background.background-0 {
-  background: linear-gradient(to left top, #fccf92, rgba(252, 207, 146, 0) 70%);
+  background: linear-gradient(to left top, #29205e, rgba(252, 207, 146, 0) 70%);
 }
 body .background.background-1 {
-  background: linear-gradient(to right top, #fabda0, rgba(250, 189, 160, 0) 70%);
+  background: linear-gradient(to right top, #322a5c, rgba(250, 189, 160, 0) 70%);
 }
 @media screen and (max-width: 640px) {
   body {
@@ -114,7 +114,7 @@ a::after {
   transition: all 0.3s ease;
 }
 a:hover {
-  color: #ff9043;
+  color: #151030;
 }
 a:hover::after {
   width: 100%;
